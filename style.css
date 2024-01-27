@@ -604,8 +604,12 @@ footer {
   /* destination section  */
 
   .destination-frame-one {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .maldives,
+  .indonesia {
+    grid-column: span 1;
   }
 
   /* .destination h3,
